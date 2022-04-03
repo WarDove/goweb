@@ -56,9 +56,10 @@ func handle(conn net.Conn, rawData map[int]person) error {
 
 				// Some Experimental Reminders :)
 				//var jsonStr strings.Builder
-				//bs, _ := json.Marshal(val)
 				//json.NewEncoder(&jsonStr).Encode(val)
 				//fmt.Println(jsonStr.String())
+
+				//bs, _ := json.Marshal(val)
 
 				fmt.Fprintf(conn, "HTTP/1.1 202 OK\r\n")
 				fmt.Fprintf(conn, "Content-Length: %d\r\n", 100)

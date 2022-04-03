@@ -1,4 +1,4 @@
-package main
+package tcpmux
 
 import (
 	"bufio"
@@ -78,7 +78,7 @@ func handle(conn net.Conn, rawData map[int]person) error {
 	return nil
 }
 
-func main() {
+func Tcpmux() {
 
 	peopleMap := make(map[int]person)
 
@@ -100,7 +100,6 @@ func main() {
 		connection, err := li.Accept()
 		check(err)
 		go handle(connection, peopleMap)
-
 	}
 
 }

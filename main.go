@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-
+	// test commit
 	Handle("/", HandlerFunc(myhttp.Index))
 	Handle("/me", HandlerFunc(myhttp.Me))
 	Handle("/dog", HandlerFunc(myhttp.Dog))

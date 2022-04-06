@@ -9,13 +9,16 @@ import (
 var Tpl template.Template
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	//w.Header().Set("Content-type", "text/html; encoding=utf8")
+	w.Header().Set("Content-type", "text/html; encoding=utf-8")
 	Tpl.ExecuteTemplate(w, "index.gohtml", nil)
 }
 func Me(w http.ResponseWriter, r *http.Request) {
-	//w.Header().Set("Content-type", "text/html; encoding=utf8")
-	r.FormValue("fname")
-	Tpl.ExecuteTemplate(w, "me.gohtml", r.Form["fname"][0])
+	w.Header().Set("Content-type", "text/html; encoding=utf-8")
+
+	Tpl.ExecuteTemplate(w, "me.gohtml", r.FormValue("fname"))
+	//r.ParseForm()
+	//Tpl.ExecuteTemplate(w, "me.gohtml", r.Form["fname"][0])
+
 }
 
 func Dog(w http.ResponseWriter, r *http.Request) {

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello index</title>
+</head>
+<body>
+<h1> Here are your images </h1>
+{{range .}}
+    <img src="/public/pics/{{.}}" width="400px" />
+{{end}}
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Choose file to upload</label>
+        <input type="file" id="images" name="images" accept="image/png, image/jpeg" multiple>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+
+</form>
+
+
+
+
+</body>
+</html>

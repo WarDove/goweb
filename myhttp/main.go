@@ -6,7 +6,7 @@ import (
 	"text/template"
 )
 
-var Tpl template.Template
+var Tpl *template.Template = template.New("Tpl")
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-type", "text/html; encoding=utf-8")

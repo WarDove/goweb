@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f856a0-df5a-4506-b3c7-de66eeb8ebb8" name="Changes" comment="streamlined">
+      <change afterPath="$PROJECT_DIR$/countvisit/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/3f3d06ca391741b513248d1ac0303fc6a5699f3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/786436d5f5ff8747f355065e3fe46d17dfccab6f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/a281a3e69478dfdf431711b394b9df3633f03058.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/e7a3b0c3ab3aaea119b1ba4bf1b0878d7e7fc3d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photoblog/templates/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subhandle/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fileserver/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myhttp/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myhttp/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +44,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26ypg56lGuusfFUl8jAO4ulHTAL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -89,6 +99,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/TCP MUX Project" />
     </ignored-roots>

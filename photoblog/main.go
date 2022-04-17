@@ -32,6 +32,7 @@ func getCookie(w http.ResponseWriter, r *http.Request) *http.Cookie {
 		}
 	}
 	//c.MaxAge = 3600
+	http.SetCookie(w, c)
 	return c
 }
 
@@ -55,7 +56,8 @@ func index(w http.ResponseWriter, req *http.Request) {
 	var imgNames []string
 
 	if req.Method == http.MethodPost {
-
+		// IF if was not multiple choice for file , we would use r.FormFile - which auto parses one file
+		// and gives the File itself and its header + error  ( req.FormFile ("name of the input from html") )
 		err := req.ParseMultipartForm(32 << 20)
 
 		if err != nil {

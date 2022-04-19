@@ -54,6 +54,7 @@ func appendCookie(w http.ResponseWriter, c *http.Cookie, imgNames ...string) *ht
 func index(w http.ResponseWriter, req *http.Request) {
 	c := getCookie(w, req)
 	var imgNames []string
+	as := req.Header.Get("Host")
 
 	if req.Method == http.MethodPost {
 		// IF if was not multiple choice for file , we would use r.FormFile - which auto parses one file

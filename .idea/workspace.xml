@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f856a0-df5a-4506-b3c7-de66eeb8ebb8" name="Changes" comment="streamlined">
-      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/1fa8642f3016f2d7afe2d486a75f0af6e2bb7d6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/2700c9599166afc03c91781dd6cfbc54d4226de6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/3f0442023211f8942546737b896d77108a93691e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/cbae619b42eba985771f3e5607d88efc47642495.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photoblog/public/pics/ea7d257fe22167c0c4aa88d54951993f2f6361b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonjs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonjs/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photoblog/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/photoblog/main.go" afterDir="false" />
     </list>
@@ -60,7 +57,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gomongo-rest" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
